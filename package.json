@@ -1,0 +1,30 @@
+{
+	"name": "cypress-e2e",
+	"version": "1.0.0",
+	"description": "E2E Testing with Cypress",
+	"main": "index.js",
+	"scripts": {
+		"cy-open": "cypress open",
+		"cy-run": "cypress run"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cigdemaldan/Cypress.git"
+	},
+	"keywords": [
+		"cypress",
+		"e2e",
+		"automation",
+		"testing"
+	],
+	"author": "caldan",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cigdemaldan/Cypress.git/issues"
+	},
+	"homepage": "https://github.com/cigdemaldan/Cypress.git#readme",
+	"dependencies": {
+		"cypress": "^5.1.0",
+		"prettier": "^2.1.1"
+	}
+}
